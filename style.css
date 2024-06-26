@@ -35,6 +35,7 @@
     --font-weight-bold: 700;
 }
 *{
+    overflow-x: hidden;
     text-transform: uppercase;
     font-family: var(--font-family);
 }
@@ -280,7 +281,6 @@ footer{
 
 @media screen and (max-width: 1000px) {
     body{
-        overflow-x: hidden;
         margin: 2rem 1rem;
     }
     header{
