@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <script src="main.js" defer></script>
+</head>
+<body>
+<section>
+  <header>
+    <img src="images/logo.svg" alt="logo">
+
+      <div class="score">
+        <h2>Your Score</h2>
+        <h1 id="player-score">0</h1>
+      </div>
+      
+      <div class="score">
+        <h2>House Score</h2>
+        <h1 id="computer-score">0</h1>
+      </div>
+  </header>
+
+  <section class="player-interface">
+    <div class="buttons">
+      <div class="paper-div">
+        <button class="paper-btn"></button>
+      </div>
+      <div class="scissors-div">
+        <button class="scissors-btn"></button>
+      </div>
+      <div class="rock-div">
+        <button class="rock-btn"></button>
+      </div>
+    </div>
+  </section>
+
+<section class="choice">
+
+</section>
+
+
+<div class="overlay hidden"></div>
+<div class="rules hidden">
+  <div class="rules-header">
+    <h4>Rules</h4>
+    <svg class="icon-close" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#3B4262" fill-rule="evenodd" d="M16.97 0l2.122 2.121-7.425 7.425 7.425 7.425-2.121 2.12-7.425-7.424-7.425 7.425L0 16.97l7.425-7.425L0 2.121 2.121 0l7.425 7.425L16.971 0z" opacity=".25"/></svg>
+  </div>
+  <img src="images/image-rules.svg" alt="image-rules">
+</div>
+</section>
+
+<footer>
+  <button class="rules-btn">Rules</button>
+</footer>
+
+</body>
+</html>
