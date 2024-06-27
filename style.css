@@ -41,6 +41,7 @@
 body{
     margin: 0;
     padding: 2rem 0;
+    overflow-x: hidden;
     font-weight: var(--font-weight-normal);
     background: linear-gradient(to right, var(--background-gradient-start), var(--background-gradient-end));
 }
@@ -280,7 +281,6 @@ footer{
 
 @media screen and (max-width: 1000px) {
     body{
-        overflow-x: hidden;
         margin: 2rem 1rem;
     }
     header{
