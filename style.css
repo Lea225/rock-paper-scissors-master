@@ -35,6 +35,7 @@
     --font-weight-bold: 700;
 }
 *{
+    overflow-x: hidden;
     text-transform: uppercase;
     font-family: var(--font-family);
 }
